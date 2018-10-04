@@ -14,12 +14,12 @@ public class DynamicContentTest {
     }
 
     @Test
-    public void assertDynamicText(){
+    public void assertTextHas10CharWord(){
         boolean test = page.dynamicContentTest();
         assertTrue(test);
     }
     @Test
-    public void assertTheImage() {
+    public void assertPunisherImageDoesntAppear() {
         boolean result = page.imageTest();
         assertTrue(result);
     }
