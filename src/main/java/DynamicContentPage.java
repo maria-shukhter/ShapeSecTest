@@ -72,7 +72,7 @@ public class DynamicContentPage extends AbstractPage {
             }
 
         }
-        System.out.println(longestWord + "is a  longest word");
+        System.out.println(longestWord + " is a  longest word");
         return test;
     }
 }
